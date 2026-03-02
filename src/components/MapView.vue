@@ -31,11 +31,6 @@ const TILE_URL = import.meta.env.VITE_TILE_URL_TEMPLATE || 'https://tile.openstr
 const TILE_ATTR = import.meta.env.VITE_TILE_ATTRIBUTION_HTML || '© OpenStreetMap contributors'
 const TILE_MAX_ZOOM = Number(import.meta.env.VITE_TILE_MAX_ZOOM || 19)
 
-const RUSSIA_BOUNDS: L.LatLngBoundsExpression = [
-  [41.0, 19.0],
-  [82.0, 180.0]
-]
-
 function initMap(): void {
   if (!mapContainer.value) return
 
