@@ -12,7 +12,8 @@ export function useVillages() {
     error.value = ''
     
     try {
-      const response = await fetch('/data/villages.json', {
+      const url = `${import.meta.env.BASE_URL}data/villages.json`
+      const response = await fetch(url, {
         headers: { Accept: 'application/json' },
       })
 
