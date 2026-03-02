@@ -10,7 +10,8 @@ body {
   @apply antialiased;
 }
 
-/* Скрываем атрибуцию Leaflet */
-.leaflet-control-attribution {
+/* Скрываем все контролы Leaflet */
+.leaflet-control-attribution,
+.leaflet-top.leaflet-right {
   display: none !important;
 }

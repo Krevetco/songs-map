@@ -60,7 +60,7 @@ function initMap(): void {
   map.setView([62.0, 105.0], 3)
 
   clusterGroup = L.markerClusterGroup({
-    zoomToBoundsOnClick: false,
+    zoomToBoundsOnClick: true,
     showCoverageOnHover: false,
     chunkedLoading: true,
     chunkInterval: 200,
@@ -74,22 +74,6 @@ function initMap(): void {
     const village = marker?.__village
     if (village) {
       emit('selectVillage', village)
-    }
-  })
-
-  clusterGroup.on('clusterclick', (event: L.LeafletEvent) => {
-    const cluster = (event as any).layer as L.MarkerCluster
-    const childMarkers = cluster.getAllChildMarkers() as Array<L.Marker & { __village?: Village }>
-
-    const villages = childMarkers
-      .map((m) => m.__village)
-      .filter((v): v is Village => !!v)
-      .sort((a, b) => a.name.localeCompare(b.name, 'ru'))
-
-    emit('selectCluster', { villages, count: villages.length })
-
-    if (cluster.getLatLng && map) {
-      map.panTo(cluster.getLatLng(), { animate: true })
     }
   })
 
