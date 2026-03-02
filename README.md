@@ -141,3 +141,5 @@ interface Village {
 - [ ] Админ-панель для управления данными
 - [ ] Backend API вместо статичного JSON
 - [ ] Деплой на GitHub Pages/Netlify/Vercel
+
+Workflow запустится автоматически при пуше! 🚀
