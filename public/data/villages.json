@@ -1,0 +1,170 @@
+[
+  {
+    "id": "vlg-001",
+    "name": "Деревня в Архангельской области",
+    "type": "village",
+    "region": "Архангельская область",
+    "coordinates": { "lat": 64.54, "lon": 40.54 },
+    "tracks": [
+      { "title": "Поедемте ко братцы кататься", "artist": "Архангельская область" }
+    ],
+    "downloadUrl": "https://example.com/arkhangelsk"
+  },
+  {
+    "id": "vlg-002",
+    "name": "Село в Белгородской области",
+    "type": "selo",
+    "region": "Белгородская область",
+    "coordinates": { "lat": 50.61, "lon": 36.58 },
+    "tracks": [
+      { "title": "Из-за гор горы", "artist": "Белгородская область" }
+    ],
+    "downloadUrl": "https://example.com/belgorod"
+  },
+  {
+    "id": "vlg-003",
+    "name": "Село в Брянской области",
+    "type": "selo",
+    "region": "Брянская область",
+    "coordinates": { "lat": 53.25, "lon": 34.36 },
+    "tracks": [
+      { "title": "Пойдем мы к воскресению", "artist": "Брянская область" },
+      { "title": "Сидел Ваня на диване", "artist": "Брянская область" }
+    ],
+    "downloadUrl": "https://example.com/bryansk"
+  },
+  {
+    "id": "vlg-004",
+    "name": "Деревня в Вологодской области",
+    "type": "village",
+    "region": "Вологодская область",
+    "coordinates": { "lat": 59.22, "lon": 39.89 },
+    "tracks": [
+      { "title": "Ты звезда восточная", "artist": "Вологодская область" }
+    ],
+    "downloadUrl": "https://example.com/vologda"
+  },
+  {
+    "id": "vlg-005",
+    "name": "Станица Донских казаков",
+    "type": "selo",
+    "region": "Область Войска Донского",
+    "coordinates": { "lat": 47.23, "lon": 39.72 },
+    "tracks": [
+      { "title": "Верея моя вереюшка", "artist": "Донские казаки" },
+      { "title": "Во поле рябина", "artist": "Донские казаки" },
+      { "title": "Как под грушей", "artist": "Донские казаки" },
+      { "title": "По горам карпатским", "artist": "Донские казаки" },
+      { "title": "Что-то скучно", "artist": "Донские казаки" }
+    ],
+    "downloadUrl": "https://example.com/don-cossacks"
+  },
+  {
+    "id": "vlg-006",
+    "name": "Хутор Мрыховский",
+    "type": "poselok",
+    "region": "Ростовская область",
+    "coordinates": { "lat": 47.51, "lon": 40.82 },
+    "tracks": [
+      { "title": "Вы послушайте ребята", "artist": "Хутор Мрыховский" },
+      { "title": "И шел бы я вечером поздним", "artist": "Хутор Мрыховский" }
+    ],
+    "downloadUrl": "https://example.com/mrykhovsky"
+  },
+  {
+    "id": "vlg-007",
+    "name": "Станица Бесстрашная",
+    "type": "selo",
+    "region": "Краснодарский край (Кубань)",
+    "coordinates": { "lat": 45.35, "lon": 40.7 },
+    "tracks": [
+      { "title": "А Иерусалиме", "artist": "Станица Бесстрашная" }
+    ],
+    "downloadUrl": "https://example.com/besstrash"
+  },
+  {
+    "id": "vlg-008",
+    "name": "Станица Уманьская",
+    "type": "selo",
+    "region": "Краснодарский край (Кубань)",
+    "coordinates": { "lat": 45.04, "lon": 41.22 },
+    "tracks": [
+      { "title": "Прощай ты, Уманская станица", "artist": "Станица Уманьская" }
+    ],
+    "downloadUrl": "https://example.com/uman"
+  },
+  {
+    "id": "vlg-009",
+    "name": "Станица Пшэкская",
+    "type": "selo",
+    "region": "Краснодарский край (Кубань)",
+    "coordinates": { "lat": 44.89, "lon": 38.53 },
+    "tracks": [
+      { "title": "Чарочка", "artist": "Станица Пшэкская" }
+    ],
+    "downloadUrl": "https://example.com/pshek"
+  },
+  {
+    "id": "vlg-010",
+    "name": "Станица Некрасовцев",
+    "type": "selo",
+    "region": "Ростовская область",
+    "coordinates": { "lat": 47.32, "lon": 38.95 },
+    "tracks": [
+      { "title": "Быть и дню", "artist": "Некрасовцы" },
+      { "title": "Голымба", "artist": "Некрасовцы" },
+      { "title": "Ни заря", "artist": "Некрасовцы" },
+      { "title": "Ой у молодца голова болит", "artist": "Некрасовцы" },
+      { "title": "Садила баба лук чеснок", "artist": "Некрасовцы" },
+      { "title": "Травушка муравушка", "artist": "Некрасовцы" },
+      { "title": "Я калинушку ломала", "artist": "Некрасовцы" }
+    ],
+    "downloadUrl": "https://example.com/nekrasovtsy"
+  },
+  {
+    "id": "vlg-011",
+    "name": "Станица Наурская",
+    "type": "selo",
+    "region": "Чеченская Республика",
+    "coordinates": { "lat": 43.63, "lon": 45.39 },
+    "tracks": [
+      { "title": "Святой вечер", "artist": "Станица Наурская" }
+    ],
+    "downloadUrl": "https://example.com/naur"
+  },
+  {
+    "id": "vlg-012",
+    "name": "Станица Червленая",
+    "type": "selo",
+    "region": "Чеченская Республика",
+    "coordinates": { "lat": 43.47, "lon": 45.67 },
+    "tracks": [
+      { "title": "Грушица", "artist": "Станица Червленая" },
+      { "title": "И шла Мария", "artist": "Станица Червленая" }
+    ],
+    "downloadUrl": "https://example.com/chervlen"
+  },
+  {
+    "id": "vlg-013",
+    "name": "Село в Курской области",
+    "type": "selo",
+    "region": "Курская область",
+    "coordinates": { "lat": 51.73, "lon": 36.19 },
+    "tracks": [
+      { "title": "Да приехал мой миленький с поля", "artist": "Курская область" },
+      { "title": "По чужой стороне перепелкою", "artist": "Курская область" }
+    ],
+    "downloadUrl": "https://example.com/kursk"
+  },
+  {
+    "id": "vlg-014",
+    "name": "Деревня в Челябинской области",
+    "type": "village",
+    "region": "Челябинская область",
+    "coordinates": { "lat": 55.16, "lon": 61.4 },
+    "tracks": [
+      { "title": "Не осенний мелький дождичек", "artist": "Челябинская область" }
+    ],
+    "downloadUrl": "https://example.com/chelyabinsk"
+  }
+]
